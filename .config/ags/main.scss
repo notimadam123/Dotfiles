@@ -1,0 +1,27 @@
+$bgh:       #f5e0dc;
+$bg:        #1e1e2e;
+$bg1:       #1e1e2e;
+$bg2:       #1e1e2e;
+
+$fgh:       #1e1e2e;
+$fg:        #cdd6f4;
+$fg1:       #cdd6f4;
+$fg2:       #cdd6f4;
+
+$red:       #f38ba8;
+$green:     #a6e3a1;
+$yellow:    #f9e2af;
+$orange:    #f2cdcd;
+$blue:      #89b4fa;
+$purple:    #74c7ec;
+$aqua:      #94e2d5;
+$gray:      #585b70;
+
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font";
+  color: $fg;
+}
+
+@import "./windows/bar/style.scss";
+@import "./windows/notifications/style.scss";
