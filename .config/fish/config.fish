@@ -5,6 +5,8 @@ end
 fish_vi_key_bindings
 function fish_mode_prompt; end
 
+set -x fish_greeting ""
+
 abbr cp 'cp -iv'
 abbr mv 'mv -iv'
 abbr rm 'rm -vI'
