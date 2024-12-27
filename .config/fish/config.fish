@@ -13,6 +13,7 @@ abbr md 'mkdir -pv'
 
 
 abbr g 'git'
+abbr gca 'git clone'
 abbr ga 'git add'
 abbr gaa 'git add -A'
 abbr gcm 'git commit -m'
@@ -45,3 +46,7 @@ end
 
 zoxide init fish | source
 
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
