@@ -25,7 +25,7 @@ abbr yt "yt-dlp --embed-metadata -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 abbr yta 'yt -x -f bestaudio/best'
 abbr ffmpeg 'ffmpeg -hide_banner'
 
-abbr ls 'eza'
+abbr ls 'eza --group-directories-first'
 abbr ll 'eza -l'
 abbr grep 'rg'
 abbr cat 'bat'
